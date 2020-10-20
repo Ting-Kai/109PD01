@@ -1,0 +1,10 @@
+name = input()
+ID = input()
+score1 = int(input())
+score2 = int(input())
+score3 = int(input())
+
+print('Name:{0}'.format(name))
+print('ID:{0}'.format(ID))
+print('Average:{0}'.format(int((score1+score2+score3)/3)))
+print('Total:{0}'.format(int(score1+score2+score3)))
